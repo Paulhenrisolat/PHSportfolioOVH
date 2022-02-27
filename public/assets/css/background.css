@@ -1,0 +1,110 @@
+.navCustom{
+	right: 547px!important;
+	left: 547px!important;
+}
+
+.dropdownColor{
+	background-color: #222222!important;
+}
+
+.nav-item:hover{
+	background-color: #232426;
+}
+
+.spaceFooter{
+	/*space up*/
+	padding-top: 3rem!important;
+	/*space down*/
+	padding-bottom: 24rem!important;
+}
+
+#sectionBacground
+{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #111;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	/*transform: rotate(-30deg);*/
+}
+#sectionBacground .row
+{
+	position: relative;
+	/*top: 5%;*/
+	bottom: 1%;
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+	white-space: nowrap;
+	font-size: 150px;
+	/*transform: rotate(-30deg);*/
+}
+i
+{
+	color: rgba(0, 0, 0, 0.5);
+	transition: 1s;
+	padding: 0 5px;
+	user-select: none;
+	cursor: default;
+}
+i:hover
+{
+	transition: 0s;
+	color: #0f0;
+	text-shadow: 0 0 120px #0f0;
+}
+#sectionBacground .row /*#banime*/
+{
+	animation: animate1 17s linear infinite;
+	/*animation-delay: -80s;*/
+}
+
+@keyframes animate1
+{
+	0%
+	{
+		transform: translate(0, 0);
+	}
+	100%
+	{
+		transform: translate(-100%, 0);
+	}
+}
+
+#sectionBacground .row /*#banime*/div:nth-child(2)
+{
+	animation: animate2 3s linear infinite;
+	/*animation-delay: -80s;*/
+}
+
+@keyframes animate2
+{
+	0%
+	{
+		transform: translate(-10%, 0);
+	}
+	100%
+	{
+		transform: translate(0, 0);
+	}
+}
+
+#sectionBacground .row /*#banime*/div:nth-child(4)
+{
+	animation: animate2 3s linear infinite;
+	/*animation-delay: -80s;*/
+}
+
+@keyframes animate2
+{
+	0%
+	{
+		transform: translate(-10%, 0);
+	}
+	100%
+	{
+		transform: translate(0, 0);
+	}
+}

@@ -1,0 +1,93 @@
+/*Style*/
+.toB{
+   font-size: 1.5em;
+}
+
+.red{
+   color: red;
+}
+
+footer{
+   position: relative;
+   bottom:0;
+   width:100%;
+   /* Height of the footer */
+   height:55px;
+   text-align: center;
+   background:#9d9d9d;
+   justify-content: center;
+}
+
+.titre{
+   background-color: #bfbfbf;
+}
+
+g{
+   font-weight: bold;
+}
+
+si{
+   color: #aec300;
+}
+si:hover{
+   text-shadow: 0 0 120px #e4ff00;
+   color: #e4ff00;
+}
+
+.warningA{
+    color: red !important;
+    font-weight: bold;
+    background: yellow;
+}
+
+.initGauche{
+   text-align: initial;
+}
+
+.initCentre{
+   text-align: center;
+}
+
+.bCarrousel{
+   background: rgb(0,36,2);
+   background: linear-gradient(90deg, rgba(0,36,2,1) 14%, rgba(9,121,14,1) 68%, rgba(0,255,145,1) 100%);
+}
+
+/*Animation*/
+
+#spawn{
+   animation: apparition 2s;
+}
+@keyframes apparition{
+   from{
+      opacity: 0;
+   }
+   to{
+      opacity: 1;
+   }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #0cff4a; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  width: 522px; /*Taille horizontale de l'animation*/
+
+  animation: 
+    typing 3.5s steps(40, end),
+    barre .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes barre {
+  from, to { border-color: transparent }
+  50% { border-color: #0cff4a; }
+}

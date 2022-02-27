@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Navbar" content="">
+    <meta name="author" content="Paul-Henri Solat">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="{{asset('assets/css/background.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/vue.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navCustom">
+        <a class="navbar-brand" href="/accueil">Accueil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/cv"><i class="fas fa-address-book"></i>CV</a>
+            </li>
+
+            <li class="dropdown nav-item">               
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">                 
+              <i class="fas fa-bars"></i> Réalisations <span class="caret"></span>               
+            </a>
+            <ul class="dropdown-menu dropdownColor" role="menu">                 
+              <li role="presentation" class="dropdown-header dropdown-item">                   
+              En autonomie</li>                                 
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="#">Sites</a><i class="red">[non disponible]</i>                 
+              </li>
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="#">Logiciels</a><i class="red">[non disponible]</i>
+              </li>                 
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="#">Jeux</a><i class="red">[non disponible]</i>
+              </li>
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="/veilleInfo">Veille Technologique</a>                 
+              </li>                 
+              <li role="presentation" class="dropdown-divider"></li>                 
+              <li role="presentation" class="dropdown-header dropdown-item">                   
+              En entreprise</li>                 
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="/stage/1">Synthèse de 1ère année</a>                 
+              </li>                 
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="/stage/2">Synthèse de 2ème année</a>                 
+              </li>
+              <li role="presentation" class="dropdown-divider"></li>   
+              <li role="presentation" class="dropdown-header dropdown-item">                   
+              AP</li>
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="/nolark">Nolark</a>
+              </li>
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="/chocolatein">Chocolatein</a>
+              </li>
+              <li role="presentation" class="dropdown-item">                   
+                <a role="menuitem" href="/projetportfolio">Projet portfolio</a>
+              </li> 
+            </ul>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-award"></i>Certifications</a>
+            </li>
+            <!--<li class="nav-item active">
+              <img src="{{asset('assets/image/cubeGif2.gif')}}"></img><span class="sr-only">(current)</span></a>
+            </li>-->
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <!--<a class="nav-link" href="/cv">Text a droite<span class="sr-only">(current)</span></a>-->
+          </form>
+        </div>
+      </nav>
+    </header>
+
+<!-- fond anime -->
+    <section id="sectionBacground">
+      <div class="row">
+        <div id="banime">
+          <i class="fas fa-code-branch"></i>
+          <i class="fas fa-cubes"></i>
+          <i class="fas fa-flask"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-mouse-pointer"></i>
+          <i class="fas fa-power-off"></i>
+          <i class="fas fa-tv"></i>
+          <i class="fab fa-usb"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-dev"></i>
+          <i class="far fa-grin-alt"></i>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-code"></i>
+          <i class="fab fa-cloudversify"></i>
+          <i class="fas fa-cogs"></i>
+          <i class="far fa-comment"></i>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-at"></i>
+          <i class="fab fa-btc"></i>
+          <i class="far fa-check-circle"></i>
+          <i class="fab fa-connectdevelop"></i>
+        </div>
+        <div id="banime">
+          <i class="fas fa-code-branch"></i>
+          <i class="fas fa-cubes"></i>
+          <i class="fas fa-flask"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-mouse-pointer"></i>
+          <i class="fas fa-power-off"></i>
+          <i class="fas fa-tv"></i>
+          <i class="fab fa-usb"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-dev"></i>
+          <i class="far fa-grin-alt"></i>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-code"></i>
+          <i class="fab fa-cloudversify"></i>
+          <i class="fas fa-cogs"></i>
+          <i class="far fa-comment"></i>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-at"></i>
+          <i class="fab fa-btc"></i>
+          <i class="far fa-check-circle"></i>
+          <i class="fab fa-connectdevelop"></i>
+        </div>
+        <div id="banime">
+          <i class="fas fa-code-branch"></i>
+          <i class="fas fa-cubes"></i>
+          <i class="fas fa-flask"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-mouse-pointer"></i>
+          <i class="fas fa-power-off"></i>
+          <i class="fas fa-tv"></i>
+          <i class="fab fa-usb"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-dev"></i>
+          <i class="far fa-grin-alt"></i>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-code"></i>
+          <i class="fab fa-cloudversify"></i>
+          <i class="fas fa-cogs"></i>
+          <i class="far fa-comment"></i>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-at"></i>
+          <i class="fab fa-btc"></i>
+          <i class="far fa-check-circle"></i>
+          <i class="fab fa-connectdevelop"></i>
+        </div>
+        <div id="banime">
+          <i class="fas fa-code-branch"></i>
+          <i class="fas fa-cubes"></i>
+          <i class="fas fa-flask"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-mouse-pointer"></i>
+          <i class="fas fa-power-off"></i>
+          <i class="fas fa-tv"></i>
+          <i class="fab fa-usb"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-dev"></i>
+          <i class="far fa-grin-alt"></i>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-code"></i>
+          <i class="fab fa-cloudversify"></i>
+          <i class="fas fa-cogs"></i>
+          <i class="far fa-comment"></i>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-at"></i>
+          <i class="fab fa-btc"></i>
+          <i class="far fa-check-circle"></i>
+          <i class="fab fa-connectdevelop"></i>
+        </div>
+        <div id="banime">
+          <i class="fas fa-code-branch"></i>
+          <i class="fas fa-cubes"></i>
+          <i class="fas fa-flask"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-mouse-pointer"></i>
+          <i class="fas fa-power-off"></i>
+          <i class="fas fa-tv"></i>
+          <i class="fab fa-usb"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-dev"></i>
+          <i class="far fa-grin-alt"></i>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-code"></i>
+          <i class="fab fa-cloudversify"></i>
+          <i class="fas fa-cogs"></i>
+          <i class="far fa-comment"></i>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-at"></i>
+          <i class="fab fa-btc"></i>
+          <i class="far fa-check-circle"></i>
+          <i class="fab fa-connectdevelop"></i>
+        </div>
+      </div>
+    </section>
+
+<!-- contenu page -->
+{% block content %}
+{% endblock %}
+</body>
+
+<!-- footer -->
+  <footer>
+    <p>© 2022 Paul-Henri Solat</p>
+  </footer>
+</html>
