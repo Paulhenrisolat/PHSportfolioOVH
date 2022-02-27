@@ -26,6 +26,7 @@ class RouteController extends AbstractController{
 
     /**
      * @Route("/cv", name="cv")
+     * @Route("/cv/", name="cv")
      */
     public function cv(): Response
     {
