@@ -42,6 +42,14 @@ class RouteController extends AbstractController{
     }
 
     /**
+     * @Route("/patrimoineInfo", name="patrimoineInfo")
+     */
+    public function patrimoineInfo(): Response
+    {
+        return $this->render('vue/patrimoineInfo.html.twig');
+    }
+
+    /**
      * @Route("/stage/{id}", name="stage")
      */
     public function Stage(int $id): Response

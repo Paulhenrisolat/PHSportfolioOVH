@@ -3,6 +3,12 @@
    font-size: 1.5em;
 }
 
+.centerIMG{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .red{
    color: red;
 }
