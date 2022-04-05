@@ -71,11 +71,11 @@ class RouteController extends AbstractController{
     }
 
     /**
-     * @Route("/chocolatein", name="chocolatein")
+     * @Route("/portfolioameliepilou", name="portfolioameliepilou")
      */
-    public function chocolatein(): Response
+    public function portfolioameliepilou(): Response
     {
-        return $this->render('vue/chocolatein.html.twig');
+        return $this->render('vue/portfolioameliepilou.html.twig');
     }
 
     /**

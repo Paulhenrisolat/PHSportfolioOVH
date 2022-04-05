@@ -3,6 +3,20 @@
    font-size: 1.5em;
 }
 
+p{
+    color: #ffffff!important;
+    /*color: white!important;*/
+}
+
+h1{
+    color: black;
+    background: #628b4d;
+}
+
+.textLeft{
+    text-align: left;
+}
+
 .centerIMG{
    display: block;
    margin-left: auto;

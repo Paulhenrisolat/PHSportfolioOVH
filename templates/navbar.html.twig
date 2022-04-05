@@ -61,7 +61,7 @@
                                     <a role="menuitem" href="/nolark">Nolark</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">                   
-                                    <a role="menuitem" href="#">Portfolio Amélie Pilou</a>
+                                    <a role="menuitem" href="/portfolioameliepilou">Portfolio Amélie Pilou</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">                   
                                     <a role="menuitem" href="#">MDL – Maison des Ligues</a>
@@ -83,9 +83,6 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#"><i class="fas fa-award"></i>Certifications</a>
                         </li>
-                        <!--<li class="nav-item active">
-                          <img src="{{asset('assets/image/cubeGif2.gif')}}"></img><span class="sr-only">(current)</span></a>
-                        </li>-->
                     </ul>
                     <form class="form-inline mt-2 mt-md-0">
                     </form>
@@ -223,9 +220,5 @@
         {% block content %}
         {% endblock %}
     </body>
-
-    <!-- footer -->
-    <footer>
-        <p>© 2022 <a href="https://github.com/Paulhenrisolat">Paul-Henri Solat</a></p>
-    </footer>
+    {% include "footer.html.twig" %}
 </html>
