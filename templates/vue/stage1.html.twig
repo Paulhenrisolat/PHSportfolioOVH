@@ -3,27 +3,67 @@
 {% block title %}Portfolio Paul-Henri Solat{% endblock %}
 
 {% block content %}
-<section class="text-center container spaceFooter">
-<div class="row py-lg-5" id="spawn">
-      <div class="col-lg-9 col-md-8 mx-auto" style="background-color: #343434">
-      <br>
-        <h1 class="fw-light typewriter titre toB">- Synthèse de stage de 1ère année -</h1>
-        <br>
-        <p class="lead text-muted">J’ai effectué mon stage de première année dans le service informatique de la mairie de la Seyne sur Mer, qui s’occupe de la maintenance du matériel et des systèmes de la mairie ainsi que la gestion de leurs serveurs et sites web.</p>
+    <section class="text-center container spaceFooter">
+        <div class="row py-lg-5" id="spawn">
+            <div class="col-lg-9 col-md-8 mx-auto" style="background-color: #343434">
+                <br>
+                <h1 class="fw-light typewriter titre toB">- Synthèse de stage de 1ère année -</h1>
+                <br>
+                <p class="lead text-muted">J’ai effectué mon stage de première année dans le service informatique de la mairie de la Seyne sur Mer, qui s’occupe de la maintenance du matériel et des systèmes de la mairie ainsi que la gestion de leurs serveurs et sites web.</p>
 
-        <p class="lead text-muted">On m’a affecté la plupart du temps à un projet qui consistait à développer un site formulaire où les utilisateurs peuvent s’enregistrer, renseigner leurs informations, et accéder à leur session.<p>
+                <p class="lead text-muted">On m’a affecté la plupart du temps à un projet qui consistait à développer un site formulaire où les utilisateurs peuvent s’enregistrer, renseigner leurs informations, et accéder à leur session.<p>
 
-        <p class="lead text-muted">Ce projet a été effectué en autonomie avec une partie importante d’autoformation sur la pratique du PHP/HTML/CSS/JavaScript/SQL. J’ai débuté par un Entraînement au PHP (surtout la syntaxe).</p>
+                <p class="lead text-muted">Ce projet a été effectué en autonomie avec une partie importante d’autoformation sur la pratique du PHP/HTML/CSS/JavaScript/SQL. J’ai débuté par un Entraînement au PHP (surtout la syntaxe).</p>
 
-        <p class="lead text-muted">On m’a présenté des projets déjà réalisés par le service, principalement des sites formulaires complexes pour des professionnels de la ville. Préparation de la 1ère version de mon site formulaire (avec SublimeText) en connectant une page HTML à une base de données (PhpMyAdmin) via PHP en utilisant des requêtes SQL.</p>
+                <p class="lead text-muted">On m’a présenté des projets déjà réalisés par le service, principalement des sites formulaires complexes pour des professionnels de la ville. Préparation de la 1ère version de mon site formulaire (avec SublimeText) en connectant une page HTML à une base de données (PhpMyAdmin) via PHP en utilisant des requêtes SQL.</p>
 
-        <p class="lead text-muted">Découverte rapide de WinDev, éditeur de logiciel utilisant le « WLangage » qui utilise des mot clés français comme syntaxe (je ne l’utiliserais pas durant ce stage). La 1er semaine aura été surtout de la formation à la manipulation d’une Base de données via du PHP, et comment créer un formulaire basique avec différents langages (PHP/Windev).</p>
+                <p class="lead text-muted">Découverte rapide de WinDev, éditeur de logiciel utilisant le « WLangage » qui utilise des mot clés français comme syntaxe (je ne l’utiliserais pas durant ce stage). La 1er semaine aura été surtout de la formation à la manipulation d’une Base de données via du PHP, et comment créer un formulaire basique avec différents langages (PHP/Windev).</p>
 
-        <p class="lead text-muted">2ème semaine, formation aux méthodes JS JQuery et aux méthodes Ajax, et début de la création des sessions utilisateurs. 3eme semaine, refonte de certaines fonctionnalités du projet formulaire, correction de plusieurs erreurs (présentes depuis longtemps), et légère restructuration du code pour qu’il soit plus compréhensible. 4eme (dernière) semaine, après avoir fini l’entièreté des missions fournit par mes maîtres de stage, j’applique le MVC a mon projet ce qui conduit à une grande refonte du site, et j’y découvre le réel intérêt de l’appliquer à ce genre de projet dès la conception (gain de temps, plus de lisibilité, moins de code).</p>
+                <p class="lead text-muted">2ème semaine, formation aux méthodes JS JQuery et aux méthodes Ajax, et début de la création des sessions utilisateurs. 3eme semaine, refonte de certaines fonctionnalités du projet formulaire, correction de plusieurs erreurs (présentes depuis longtemps), et légère restructuration du code pour qu’il soit plus compréhensible. 4eme (dernière) semaine, après avoir fini l’entièreté des missions fournit par mes maîtres de stage, j’applique le MVC a mon projet ce qui conduit à une grande refonte du site, et j’y découvre le réel intérêt de l’appliquer à ce genre de projet dès la conception (gain de temps, plus de lisibilité, moins de code).</p>
 
-        <p class="lead text-muted">Ce stage m’aura mis en réelle situation professionnelle de réaliser un site web pour un professionnel selon des restrictions et avec différentes missions se rajoutant jour après jour.</p>
-
-      </div>
-</div>
-</section>
+                <p class="lead text-muted">Ce stage m’aura mis en réelle situation professionnelle de réaliser un site web pour un professionnel selon des restrictions et avec différentes missions se rajoutant jour après jour.</p>
+            </div>
+        </div>
+        <div class="row py-lg-5" id="spawn">
+            <div class="col-lg-9 col-md-8 mx-auto" style="background-color: #343434">
+                <br>
+                <h1 class="fw-light typewriter titre toB">- Site Formulaire PHP -</h1>
+                <br>
+                <p class="lead">On ma assigner plusieurs missions afin de réaliser une application formulaire pour gérer une BDD, pouvoir s'inscrire, se connecter et se déconnecter.</p>
+                <hr>
+                <div class="d-flex justify-content-center bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"><h1>CONTEXTE</h1><p>Formation à la création de site formulaire en PHP.</p></div>
+                    <div class="p-2 bd-highlight"><img class="d-block w-100 rounded float-right" src="{{asset('assets/image/stage1.png')}}" alt="photo mdl"></div>
+                </div>
+                <div class="d-flex justify-content-center bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"><img class="d-block w-50 rounded float-left" src="{{asset('assets/image/stage2.png')}}" alt="photo mdl"></div>
+                    <div class="p-2 bd-highlight"><h1>TRAVAIL REALISE</h1><p>Utilisation methode Ajax jquery (dialoue dinformation entre plusieurs page/mvc/Site formulaire basique gestion bdd.</div>
+                </div>
+                <div class="d-flex justify-content-center bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"><h1>OUTILS UTILISES</h1><p>SublimeText/phpmyadmin /html/css/sql</p></div>
+                    <div class="p-2 bd-highlight"><img class="d-block w-100 rounded float-right" src="{{asset('assets/image/stage3.png')}}" alt="photo mdl"></div>
+                </div>
+                <br>
+                <h1>COMPETENCES</h1>
+                <p class="lead"><g>1.2 Répondre aux incidents et aux demandes d’assistance et d’évolution</g></p>
+                <p class="lead textLeft">
+                    •	Collecter, suivre et orienter des demandes<br>
+                    •	Traiter des demandes concernant les services réseau et système, applicatifs<br>
+                    •	Traiter des demandes concernant les applications<br>
+                </p>
+                <p class="lead"><g>1.4 Travailler en mode projet</g></p>
+                <p class="lead textLeft">
+                •	Analyser les objectifs et les modalités d’organisation d’un projet<br>
+                •	Planifier les activités<br>
+                •	Évaluer les indicateurs de suivi d’un projet et analyser les écarts<br>
+                </p>
+                <p class="lead"><g>1.5 Mettre à disposition des utilisateurs un service informatique</g></p>
+                <p class="lead textLeft">
+                •	Réaliser les tests d’intégration et d’acceptation d’un service<br>
+                •	Déployer un service<br>
+                •	Accompagner les utilisateurs dans la mise en place d’un service<br>
+                </p>
+            </div>
+        </div>
+    </section>
 {% endblock %}
