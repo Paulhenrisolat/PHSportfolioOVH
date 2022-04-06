@@ -85,4 +85,20 @@ class RouteController extends AbstractController{
     {
         return $this->render('vue/projetportfolio.html.twig');
     }
+    
+    /**
+     * @Route("/mdl", name="mdl")
+     */
+    public function mdl(): Response
+    {
+        return $this->render('vue/mdl.html.twig');
+    }
+    
+    /**
+     * @Route("/gsb", name="gsb")
+     */
+    public function gsb(): Response
+    {
+        return $this->render('vue/gsb.html.twig');
+    }
 }
